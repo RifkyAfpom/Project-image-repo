@@ -8,5 +8,5 @@ Belongs to [Joy Shaheb YouTube Channel](https://www.youtube.com/c/JoyShaheb)
    * copy the url, 
    * go to [downgit](https://minhaskamal.github.io/DownGit/#/home) & 
    * follow the steps on the video 👇 ->
-
+   * kurang login responsive facebook mbi google
 ![](https://cloud.githubusercontent.com/assets/5456665/17822364/940bded8-6678-11e6-9603-b84d75bccec1.gif)
