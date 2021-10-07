@@ -1,0 +1,110 @@
+<!-- /**
+    * todo Tutorial - https://youtu.be/VufN46OyFng 
+    **/ -->
+    
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <!--<meta http-equiv="refresh" content="60"/>-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script async defer src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <!--
+            /***
+            * todo <script src="https://apis.google.com/js/platform.js" async defer></script>
+            * todo <meta name="google-signin-client_id" content="86646650058-5oejj8ma70efpmhsv022si7i3gqc6q75.apps.googleusercontent.com">
+            ***/
+        -->
+        <!-- /**
+            * ? Font Awesome fontawesome.com || pro on google docs
+        **/ -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <title>Form Validatiom</title>
+    </head>
+    <body>
+        <!--
+            /***
+            * todo <div id="fb-root"></div>
+            * todo <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=4452212864821949&autoLogAppEvents=1" nonce="fqK9q3cT"></script>
+            ***/
+        -->
+        <div class="container">
+            <div class="content">
+                <div class="logo">
+                    <img src="https://raw.githubusercontent.com/RifkyAfpom/Project-image-repo/main/Form-Validation/images/logo.svg" alt=""/>
+                </div>
+                <div class="image"></div>
+                <div class="text"> Start for free & get <br> attractive offers today</div>
+            </div>
+            <form id="form">
+                <div class="social">
+                    <div class="title">Get Started</div>
+                    <div class="question">
+                        Already Have an Account? <br />
+                        <span>Sign In</span>
+                    </div>
+
+                    <div class="btn">
+                        <div class="btn-1">
+                            <!--
+                                /***
+                                * ? if use google <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                                ***/
+                            -->
+                            <img src="https://img.icons8.com/color/30/000000/google-logo.png"/>Sign Up
+                        </div>
+                        <div class="btn-2">
+                            <img src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png"/>Sign Up
+                            <!--
+                               /***
+                                * ? if use fb <div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
+                                ***/
+                            -->
+                        </div>
+                    </div>
+
+                    <div class="or">Or</div>
+                </div>
+
+                <!-- /** 
+                   * ! Username Input 
+                **/ -->
+                <div>
+                    <label for="username">User Name</label>
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="username" id="username" placeholder="anonymous"/>
+                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                    <i class="fas fa-check-circle success-icon"></i>
+                    <div class="error"></div>
+                </div>
+
+                <!-- /** 
+                   * ! Email Input 
+                **/ -->
+                <div>
+                    <label for="email">Email</label>
+                    <i class="far fa-envelope"></i>
+                    <input type="email" name="email" id="email" placeholder="abc@gmail.com"/>
+                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                    <i class="fas fa-check-circle success-icon"></i>
+                    <div class="error"></div>
+                </div>
+
+                <!-- /** 
+                   * ! Password input 
+                **/ -->
+                <div>
+                    <label for="Password">User Name</label>
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="password" id="password" placeholder="Password here"/>
+                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                    <i class="fas fa-check-circle success-icon"></i>
+                    <div class="error"></div>
+                </div>
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
